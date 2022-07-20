@@ -7,7 +7,8 @@ body{
 
 body h1{
     font-weight: 700;
-    font-size: 70px;}
+    font-size: 70px;
+}
 
 
     /* common style end */
@@ -83,19 +84,16 @@ margin-left: 1.5%;
     width: 256px;
     padding: 18px 0;
     margin: 15px 0;
-    border-radius: 5px;
-}
+    border-radius: 5px;}
 
 #btn-color{
     background-color: #DD0000;
-    
-}
+    }
 
 .card{
     display: flex;
     flex-direction: column;
     background-color: #fff;
-
 }
 
 .card{
@@ -146,7 +144,7 @@ text-align: center;
 .articles{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-   gap: 10px;
+   gap: 15px;
    margin-right: 2%;
     
 }
@@ -157,6 +155,49 @@ text-align: center;
 }
 
 
-.card{
+#margin{
     margin-top: 116px;
+}
+
+.card{
+    margin-top: 20px;
+}
+
+/* manu section end */
+
+.footer{
+    width: 100%;
+    height: 444px;
+    background-color: #161616;
+    color: #fff;
+    margin-top: 100px;
+    border-radius: 20px;
+    
+}
+
+.footer h2{
+    font-size: 40px;
+    font-weight: 800;
+   
+  
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.fotter{
+    display: flex  ;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 50px;
+
+}
+
+.fa-brands{
+    font-size: 30px;
+    margin: 10px;
 }
