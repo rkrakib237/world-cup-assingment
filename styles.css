@@ -90,20 +90,20 @@ margin-left: 1.5%;
     background-color: #DD0000;
     }
 
-    .card-match {
-        display: flex;
-        flex-direction: column;
-        background-color: #fff;
-    }
-    
-    .card-match {
-        width: 312px;
-    height: 242px;
-    border: 1px solid #161616;
-    border-radius: 10px;
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
 }
 
-.card-match  h3{
+.card{
+    width: 312px;
+height: 364px;
+border: 1px solid #161616;
+border-radius: 10px;
+}
+
+.card h3{
     margin: 20px;
     
 font-weight: 600;
@@ -159,47 +159,11 @@ text-align: center;
     margin-top: 116px;
 }
 
-.card-match {
+.card{
     margin-top: 20px;
 }
 
-.card-match h3{
-
-    font-weight: 600;
-font-size: 20px;
-line-height: 30px;
-
-
-text-align: center;
-
-color: #161616;
-}
-.card-match p{
-    font-weight: 400;
-font-size: 16px;
-line-height: 20px;
-
-
-text-align: center;
-
-color: #4D4D4D;
-}
-
-
-.single-card{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 30px;
-}
-#matches
-{
-    margin-top: 120px;
-}
-
-
 /* manu section end */
-
 
 .footer{
     width: 100%;
